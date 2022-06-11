@@ -1,0 +1,168 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#ken {
+    color: black;
+}
+ul {
+    color: aliceblue;
+
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+ul> li {
+    color: black;
+    list-style: none;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+ul li a:visited, ul li a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.top {
+    background: url("images/goku.jpg"),no-repeat;
+    background-size: cover;
+}
+p{
+    color: #520404;
+    text-align: center;
+    font-style: italic;
+    height: 50%;
+
+}
+
+.goku-container {
+    
+}
+
+.goku-img img {
+    width: 100%;
+    height: 60vh;
+}
+
+#s {
+    color: black;
+    text-transform: capitalize;
+}
+
+#k {
+    text-align: center;
+    color: white;
+}
+
+#f {
+    color: darkgoldenrod;
+}
+
+#g {
+    color:#008000;
+    
+}
+
+#h {
+        color: #cd5c5c;
+    
+}
+
+#t {
+    color: aliceblue;
+    
+
+}
+
+#n {
+    background: hsl(0, 100%, 27%);
+    text-align: center;
+}
+
+#t {
+    padding-top: 50%;
+    padding-bottom: 50%;
+}
+
+#y {
+    color:rgb(218, 165, 32);
+    padding-top: px;
+    padding-bottom: px;
+    font-style: initial;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    background-color: black;
+    
+    
+}
+ h3 {
+     color: white;
+     text-align: center;
+     background-color: black ;
+     border-color: #008000;
+     border-radius: 40px;
+     
+ }
+
+ h4 {
+     color: brown;
+     font-size: x-large;
+     text-align: center;
+     background-color: white;
+     }
+
+h5 {
+    color: hsl(0, 100%, 27%);
+    font-size: x-large;
+    text-align: center;
+    background-color: white;
+}
+    
+ 
+header {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: white;
+       }
+      
+ ul {
+     color:  black;
+ }      
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+@media screen and (max-width: 693px) {
+    ul li a{
+      color: blue;
+    }}
